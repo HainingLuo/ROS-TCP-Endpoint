@@ -1,0 +1,36 @@
+<launch>
+    <param name="/ROS_IP" value="127.0.0.1"/>
+    <node name="server_endpoint1" pkg="ros_tcp_endpoint" type="multi_server_endpoint.py" args="--wait" output="screen" respawn="true">
+        <param name="/tcp_ip" value="127.0.0.1"/>
+    </node>
+    <node name="server_endpoint2" pkg="ros_tcp_endpoint" type="multi_server_endpoint.py" args="--wait" output="screen" respawn="true">
+        <param name="/tcp_ip" value="127.0.0.2"/>
+    </node>
+    <node name="server_endpoint3" pkg="ros_tcp_endpoint" type="multi_server_endpoint.py" args="--wait" output="screen" respawn="true">
+        <param name="/tcp_ip" value="127.0.0.3"/>
+    </node>
+    <node name="server_endpoint4" pkg="ros_tcp_endpoint" type="multi_server_endpoint.py" args="--wait" output="screen" respawn="true">
+        <param name="/tcp_ip" value="127.0.0.4"/>
+    </node>
+    <node name="server_endpoint5" pkg="ros_tcp_endpoint" type="multi_server_endpoint.py" args="--wait" output="screen" respawn="true">
+        <param name="/tcp_ip" value="127.0.0.5"/>
+    </node>
+    <node name="server_endpoint6" pkg="ros_tcp_endpoint" type="multi_server_endpoint.py" args="--wait" output="screen" respawn="true">
+        <param name="/tcp_ip" value="127.0.0.6"/>
+    </node>
+    <node name="server_endpoint7" pkg="ros_tcp_endpoint" type="multi_server_endpoint.py" args="--wait" output="screen" respawn="true">
+        <param name="/tcp_ip" value="127.0.0.7"/>
+    </node>
+    <node name="server_endpoint8" pkg="ros_tcp_endpoint" type="multi_server_endpoint.py" args="--wait" output="screen" respawn="true">
+        <param name="/tcp_ip" value="127.0.0.8"/>
+    </node>
+    <node name="server_endpoint9" pkg="ros_tcp_endpoint" type="multi_server_endpoint.py" args="--wait" output="screen" respawn="true">
+        <param name="/tcp_ip" value="127.0.0.9"/>
+    </node>
+    <node name="server_endpoint10" pkg="ros_tcp_endpoint" type="multi_server_endpoint.py" args="--wait" output="screen" respawn="true">
+        <param name="/tcp_ip" value="127.0.0.10"/>
+    </node>
+    <node name="server_endpoint11" pkg="ros_tcp_endpoint" type="multi_server_endpoint.py" args="--wait" output="screen" respawn="true">
+        <param name="/tcp_ip" value="127.0.0.11"/>
+    </node>
+</launch>
